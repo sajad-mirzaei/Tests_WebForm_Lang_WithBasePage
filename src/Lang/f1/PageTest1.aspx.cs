@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Web.UI;
 
-public partial class PageTest1 : System.Web.UI.Page
+public partial class PageTest1 : mybasePage
 {
     protected void Page_Load(object sender, EventArgs e)
     {

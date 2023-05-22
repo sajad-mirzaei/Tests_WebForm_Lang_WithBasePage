@@ -7,7 +7,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <a href="../Default.aspx">Default</a><hr />
+        <a href="../Default.aspx">Default Link</a><hr />
         <h1 style="text-align:center">PageTest1 Page</h1>
         Text to translate: <asp:Label ID="Label2" runat="server" meta:resourcekey="Label1Resource1" />
         <hr />
