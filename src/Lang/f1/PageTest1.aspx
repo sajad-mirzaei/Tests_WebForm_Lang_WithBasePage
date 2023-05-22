@@ -1,14 +1,14 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="PageTest1.aspx.cs" Inherits="PageTest1" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Default Page</title>
+    <title>PageTest1 Page</title>
 </head>
 <body>
     <form id="form1" runat="server">
-        <a href="f1/PageTest1.aspx">PageTest1</a><hr />
-        <h1 style="text-align:center">Default Page</h1>
+        <a href="../Default.aspx">Default</a><hr />
+        <h1 style="text-align:center">PageTest1 Page</h1>
         Text to translate: <asp:Label ID="Label2" runat="server" meta:resourcekey="Label1Resource1" />
         <hr />
         <asp:Label ID="Label1" runat="server" Text="Select Language"></asp:Label>

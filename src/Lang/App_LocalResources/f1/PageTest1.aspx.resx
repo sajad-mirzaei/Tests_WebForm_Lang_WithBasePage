@@ -121,7 +121,7 @@
     <value>Label 1 Text</value>
   </data>
   <data name="Label1Resource1.ToolTip" xml:space="preserve">
-    <value>Label 1 ToolTip </value>
+    <value>Label 1 ToolTip</value>
   </data>
   <data name="PageResource1.Title" xml:space="preserve">
     <value>Page Title</value>
