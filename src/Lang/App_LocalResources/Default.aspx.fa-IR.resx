@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Label1Resource1.Text" xml:space="preserve">
-    <value>સુપ્રીમ કોર્ટે</value>
+    <value>لیبیل 1 متن</value>
   </data>
   <data name="Label1Resource1.ToolTip" xml:space="preserve">
-    <value />
+    <value>لیبل 1 تولتیپ</value>
   </data>
   <data name="PageResource1.Title" xml:space="preserve">
-    <value>Untitled Page</value>
+    <value>عنوان صفحه</value>
   </data>
 </root>
