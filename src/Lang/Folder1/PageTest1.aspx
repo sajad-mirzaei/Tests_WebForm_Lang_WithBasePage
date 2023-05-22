@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="PageTest1.aspx.cs" Inherits="PageTest1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PageTest1.aspx.cs" CodeFile="PageTest1.aspx.cs" Inherits="PageTest1" %>
+<%--<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PageTest1.aspx.cs" Inherits="f1.PageTest1" %>--%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -9,7 +10,12 @@
     <form id="form1" runat="server">
         <a href="../Default.aspx">Default Link</a><hr />
         <h1 style="text-align:center">PageTest1 Page</h1>
-        Text to translate: <asp:Label ID="Label2" runat="server" meta:resourcekey="Label1Resource1" />
+        
+        Label1: <asp:Label ID="Label2" runat="server" meta:resourcekey="Label1Resource1" /><br />
+        Label2: <asp:Label ID="Label3" runat="server" Text="<%$resources:TestLabel1 %>" /><br />
+        Label3: <span ID="Span1" runat="server" title="<%$resources:TestLabel1 %>"><%=GetLocalResourceObject("TestLabel1") %></span><br />
+        Label4: <span id="Label4" title="<%=GetLocalResourceObject("TestLabel1") %>"><%=GetLocalResourceObject("TestLabel1") %></span><br />
+        
         <hr />
         <asp:Label ID="Label1" runat="server" Text="Select Language"></asp:Label>
         <asp:DropDownList ID="DropDownList1" runat="server">

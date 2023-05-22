@@ -7,6 +7,7 @@ public partial class _Default : mybasePage
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        var x = GetLocalResourceObject("TestLabel1");
         if(!IsPostBack)
             DropDownList1.SelectedValue = CultureInfo.CurrentCulture.Name;
     }

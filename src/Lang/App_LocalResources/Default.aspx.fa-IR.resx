@@ -126,4 +126,7 @@
   <data name="PageResource1.Title" xml:space="preserve">
     <value>عنوان صفحه</value>
   </data>
+  <data name="TestLabel1" xml:space="preserve">
+    <value>لیبل تست 1</value>
+  </data>
 </root>
